@@ -2,6 +2,7 @@
 const container = document.querySelector(".container")
 
 for (let i = 0; i <= 100; i++) {
+    
     // creiamo div completo
     const square = 
         `<div class="square">
@@ -10,5 +11,19 @@ for (let i = 0; i <= 100; i++) {
     `;
 
     container. innerHTML += square;
+
+    if (i % 3 === 0) {
+        square += 'Fizz'
+    } 
+    else if (i % 5 === 0) {
+        square += 'Buzz';
+    }
+
     
+
+
+
+
+
+
 }
