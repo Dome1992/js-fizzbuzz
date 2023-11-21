@@ -19,6 +19,12 @@ body{
     align-items: center;
     justify-content: center;
     background-color:cadetblue;
+    transition: 0,3 s;
+}
+
+.square:hover {
+    
+    transform: translateY(-10px);
 }
 
 .title{
