@@ -1,7 +1,13 @@
+body{
+    background-color: rgb(23, 65, 143);
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 80%;
+    margin: auto;
     
 }
 
@@ -12,5 +18,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 68, 255);
+    background-color:cadetblue;
 }
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+}
+
