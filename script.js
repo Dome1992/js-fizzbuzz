@@ -1,4 +1,4 @@
-// Versione InnerHTML
+/ Versione InnerHTML
 const container = document.querySelector(".container")
 
 for (let i = 0; i <= 100; i++) {
@@ -12,15 +12,7 @@ for (let i = 0; i <= 100; i++) {
 
     container. innerHTML += square;
 
-    if (i % 3 === 0) {
-        square += 'Fizz';
-    } 
-    else if (i % 5 === 0) {
-        square += 'Buzz';
-    }
-    else (i % 3 === 0 && i % 5 === 0) {
-        square += 'FizzBuzz';
-    }
+   
 
 
 }
