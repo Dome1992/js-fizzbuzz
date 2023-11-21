@@ -13,12 +13,12 @@ for (let i = 0; i <= 100; i++) {
     container. innerHTML += square;
 
     if (i % 3 === 0) {
-        square += 'Fizz'
+        square += 'Fizz';
     } 
-     if (i % 5 === 0) {
+    else if (i % 5 === 0) {
         square += 'Buzz';
     }
-    if (i % 3 === 0 && i % 5 === 0) {
+    else (i % 3 === 0 && i % 5 === 0) {
         square += 'FizzBuzz';
     }
 
