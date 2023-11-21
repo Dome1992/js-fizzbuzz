@@ -23,7 +23,7 @@ body{
 }
 
 .square:hover {
-    
+    border-radius: 15px;
     transform: translateY(-10px);
 }
 
